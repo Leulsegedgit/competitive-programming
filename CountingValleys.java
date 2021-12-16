@@ -1,3 +1,8 @@
+public class CountingValleys{
+  public static void main(String[] args)
+   {
+    System.out.println(countingValleys(8, "UDDUUUUD"));
+  }
 public static int countingValleys(int steps, String path) {
     // Write your code here
     int sea_level = 0;
@@ -17,3 +22,4 @@ return no_of_valley;
     }
 
 }
+
